@@ -1,8 +1,5 @@
-import { app } from "./app.js"
+import app from "./app.js";
 
-
-
-
-app.listen(5000, (req,res)=>{
-    console.log("Server Started")
+app.listen(5000, (req, res) => {
+  console.log("Server Started");
 });
